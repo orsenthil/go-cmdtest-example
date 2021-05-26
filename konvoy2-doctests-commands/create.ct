@@ -1,0 +1,15 @@
+# Test konvoy2 create commands
+
+# This creates a bootstrap cluster
+
+$ konvoy2 create bootstrap
+
+
+# This creates a konvoy cluster
+
+$ konvoy2 create cluster
+
+
+# This should fail
+
+$ konvoy2 create mycluster --> FAIL

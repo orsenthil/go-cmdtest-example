@@ -34,3 +34,12 @@ func TestKonvoy2(t *testing.T) {
 	ts.Commands["konvoy2"] = cmdtest.Program("./konvoy2")
 	ts.Run(t, *update)
 }
+
+func TestKonvoyNoUpdate(t *testing.T) {
+	ts, err := cmdtest.Read("konvoy2-doctests-commands")
+	if err != nil {
+		t.Fatal(err)
+	}
+	ts.Commands["konvoy2"] = cmdtest.Program("./konvoy2")
+	ts.Run(t, false) /* don't update */
+}
