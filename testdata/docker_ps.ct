@@ -1,0 +1,14 @@
+# Testing docker command line commands
+
+$ docker ps -n 10
+CONTAINER ID        IMAGE                     COMMAND                  CREATED             STATUS                    PORTS               NAMES
+e75962c5d395        skumaran/redditbot:v0.1   "python ./redditbot.…"   2 hours ago         Exited (1) 2 hours ago                        laughing_bouman
+a83c25d023f7        skumaran/redditbot:v0.1   "python ./redditbot.…"   26 hours ago        Exited (1) 26 hours ago                       optimistic_shtern
+100254bed2a3        skumaran/redditbot:v0.1   "python ./redditbot.…"   2 days ago          Exited (1) 2 days ago                         upbeat_ride
+24ec0b056be2        skumaran/redditbot:v0.1   "python ./redditbot.…"   4 days ago          Exited (1) 4 days ago                         zen_brown
+795860169e70        skumaran/redditbot:v0.1   "python ./redditbot.…"   5 days ago          Exited (1) 5 days ago                         naughty_fermat
+60fc10d6b72e        skumaran/redditbot:v0.1   "python ./redditbot.…"   6 days ago          Exited (1) 6 days ago                         nifty_goldwasser
+4588918e39bb        skumaran/redditbot:v0.1   "python ./redditbot.…"   7 days ago          Exited (1) 7 days ago                         vigilant_bhaskara
+b7cc1029b1cd        skumaran/redditbot:v0.1   "python ./redditbot.…"   8 days ago          Exited (1) 8 days ago                         stoic_kepler
+6a98abbcd24c        skumaran/redditbot:v0.1   "python ./redditbot.…"   9 days ago          Exited (1) 9 days ago                         dazzling_hertz
+b373808865f3        skumaran/redditbot:v0.1   "python ./redditbot.…"   10 days ago         Exited (1) 10 days ago                        vigorous_mahavira

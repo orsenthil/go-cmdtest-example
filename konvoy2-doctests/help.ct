@@ -1,0 +1,44 @@
+# konvoy2 help
+
+$ konvoy2 help
+Create and manage Kubernetes clusters
+
+Usage:
+  konvoy [command]
+
+Available Commands:
+  create      Create one of [bootstrap (resources), cluster]
+  delete      delete one of [bootstrap (resources), cluster]
+  describe    Describe one of [cluster]
+  export      Export one of [kubeconfig]
+  get         Get one of [kubeconfig]
+  help        Help about any command
+  move        Move controllers and objects from one cluster to the other
+  update      update bootstrap (resources)
+  version     Version for konvoy
+
+Flags:
+  -h, --help               help for konvoy
+  -v, --verbosity string   verbosity level (one of [fatal,error,warn,info,debug,trace]) (default "info")
+
+Use "konvoy [command] --help" for more information about a command.
+
+
+
+$ konvoy2 help create
+Create one of [bootstrap (resources), cluster]
+
+Usage:
+  konvoy create [command]
+
+Available Commands:
+  bootstrap   Create bootstrap cluster
+  cluster     Create a konvoy cluster, one of [aws, azure]
+
+Flags:
+  -h, --help   help for create
+
+Global Flags:
+  -v, --verbosity string   verbosity level (one of [fatal,error,warn,info,debug,trace]) (default "info")
+
+Use "konvoy create [command] --help" for more information about a command.

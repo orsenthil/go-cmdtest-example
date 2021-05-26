@@ -1,0 +1,83 @@
+# Testing docker command line commands
+
+$ docker version
+Client: Docker Engine - Community
+ Version:           19.03.6
+ API version:       1.40
+ Go version:        go1.12.16
+ Git commit:        369ce74a3c
+ Built:             Thu Feb 13 01:27:49 2020
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          19.03.6
+  API version:      1.40 (minimum version 1.12)
+  Go version:       go1.12.16
+  Git commit:       369ce74a3c
+  Built:            Thu Feb 13 01:26:23 2020
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.2.13
+  GitCommit:        7ad184331fa3e55e52b890ea95e65ba581ae3429
+ runc:
+  Version:          1.0.0-rc10
+  GitCommit:        dc9208a3303feef5b3839f4323d9beb36df0a9dd
+ docker-init:
+  Version:          0.18.0
+  GitCommit:        fec3683
+
+
+$ docker system info
+Client:
+ Debug Mode: false
+
+Server:
+ Containers: 190
+  Running: 1
+  Paused: 0
+  Stopped: 189
+ Images: 340
+ Server Version: 19.03.6
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 7ad184331fa3e55e52b890ea95e65ba581ae3429
+ runc version: dc9208a3303feef5b3839f4323d9beb36df0a9dd
+ init version: fec3683
+ Security Options:
+  apparmor
+  seccomp
+   Profile: default
+ Kernel Version: 5.3.0-64-generic
+ Operating System: Ubuntu 19.10
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 4
+ Total Memory: 15.58GiB
+ Name: mahalonobis
+ ID: VHLL:NX34:CAAJ:4EZD:3GMW:4BKI:MM5J:A753:YLON:3ZDN:T4CS:HKG2
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Username: skumaran
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+
+WARNING: No swap limit support
